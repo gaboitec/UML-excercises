@@ -1,3 +1,16 @@
+/*
+Crear un programa que contenga dos personajes:
+"Esqueleto" y "Zombi". Cada personaje tendrá una
+lógica diferente en sus ataques y velocidad.
+La creación de los personajes dependerá del nivel del juego:
+
+- En el nivel fácil se creará un personaje "Esqueleto".
+
+- En el nivel difícil se creará un personaje "Zombi".
+
+Debes aplicar el patrón de diseño Factory para la creación de los personajes.
+*/
+
 <?php
 //SE CREA LA INTERFAZ PARA LOS PERSONAJES
 interface iPersonaje
