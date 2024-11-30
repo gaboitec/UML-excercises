@@ -1,3 +1,4 @@
+<?php
 /*
 Crear un programa que contenga dos personajes:
 "Esqueleto" y "Zombi". Cada personaje tendrá una
@@ -11,7 +12,6 @@ La creación de los personajes dependerá del nivel del juego:
 Debes aplicar el patrón de diseño Factory para la creación de los personajes.
 */
 
-<?php
 //SE CREA LA INTERFAZ PARA LOS PERSONAJES
 interface iPersonaje
 {
